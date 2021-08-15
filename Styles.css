@@ -13,6 +13,7 @@ input.empty {
     line-height: 20px;
     border-radius: 30px;
     border: 1px solid rgb(202, 202, 202);
+    outline: none;
 }
 input{
     padding: 15px;
@@ -20,6 +21,9 @@ input{
     background-size: 35px 35px;
     background-repeat: no-repeat;
     background-position: 98%;
+}
+input:hover{
+    box-shadow: 1px 1px 10px 1px grey;
 }
 a{
     text-decoration: none;
